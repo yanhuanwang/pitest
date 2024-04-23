@@ -6,7 +6,7 @@ import org.junit.runners.MethodSorters;
 import mutation.WeightHelper;
 
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
-public class WeightHelperTest {
+public class RegressionTest {
 
     public static boolean debug = false;
 

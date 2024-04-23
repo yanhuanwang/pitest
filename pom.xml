@@ -19,15 +19,15 @@
                     <groupId>org.pitest</groupId>
                     <artifactId>pitest-maven</artifactId>
                     <version>1.16.0</version>
-                    <dependencies>
+                    <!-- <dependencies>
                     <dependency>
                         <groupId>org.pitest</groupId>
                         <artifactId>pitest-junit5-plugin</artifactId>
                         <version>1.2.1</version>
                     </dependency>
-                    </dependencies>
+                    </dependencies> -->
                     <configuration>
-                    <testPlugin>junit5</testPlugin>
+                    <!-- <testPlugin>junit5</testPlugin> -->
                     <targetClasses>
                         <param>mutation.*</param>
                     </targetClasses>
@@ -66,6 +66,11 @@
             <version>4.12</version>
             <scope>test</scope>
         </dependency>
+        <!-- <dependency>
+            <groupId>org.pitest</groupId>
+            <artifactId>pitest-junit5-plugin</artifactId>
+            <version>0.8</version>
+        </dependency> -->
         <!-- <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter</artifactId>
